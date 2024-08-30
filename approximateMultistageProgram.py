@@ -117,5 +117,7 @@ if __name__ == "__main__":
         results['two-stage obj'] = results_two_risk2
         results['two-stage time'] = two_time_list
 
-
+        output = open('results/result_{}_{}_{}_{}_{}_{}_{}_{}_NonSAA.pkl'.format(Test.numStages, Test.numFacilities, Test.numCustomers, Test.numBranches, sigma, lambda_risk, alpha_risk, iteration), 'wb')
+        pickle.dump(results, output)
+        output.close()
 
