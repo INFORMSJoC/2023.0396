@@ -134,6 +134,10 @@ if __name__ == "__main__":
         results['50 percentiles in relative gaps'] = np.percentile(results['relative gaps'], 50)
         results['mean in relative gaps'] = np.mean(results['relative gaps'])
 
+        output = open('results/result_{}_{}_{}_{}_{}_{}_{}_{}_NonSAA.pkl'.format(Test.numStages, Test.numFacilities, Test.numCustomers, Test.numBranches, sigma, lambda_risk, alpha_risk, iteration), 'wb')
+        pickle.dump(results, output)
+        output.close()
+
 
 
 
