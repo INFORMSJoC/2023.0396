@@ -1,9 +1,16 @@
-# On the Value of Risk-Averse Multistage Stochastic Programming in Capacity Planning
-This archive is distributed in association with the INFORMS Journal on Computing under the MIT License.
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-The software and data in this repository are a snapshot of the software and data from the development repository that were used in the research reported on in the paper On the Value of Risk-Averse Multistage Stochastic Programming in Capacity Planning by Xian Yu, and Siqian Shen.
+# On the Value of Risk-Averse Multistage Stochastic Programming in Capacity Planning
+
+This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc)
+under the [MIT License](LICENSE).
+
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported on in the paper 
+[On the Value of Risk-Averse Multistage Stochastic Programming in Capacity Planning](https://doi.org/10.1287/ijoc.2023.0396) by Xian Yu and Siqian Shen.
 
 # Cite
+
 To cite this software, please cite the paper using its DOI and the software DOI.
 
 https://doi.org/10.1287/ijoc.2023.0396
@@ -20,6 +27,7 @@ Below is the BibTex for citing this version of the code.
   year =          {2024},
   doi =           {10.1287/ijoc.2023.0396.cd},
   url =           {https://github.com/INFORMSJoC/2023.0396},
+  note =          {Available for download at https://github.com/INFORMSJoC/2023.0396},
 }
 ```
 
