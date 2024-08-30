@@ -138,3 +138,7 @@ if __name__ == "__main__":
 
         results['gap in bounds'] = gap_risk2 - lower_bound_risk
 
+        output = open('results/result_Daskin_CMCS_{}_{}_{}_{}_{}_{}_{}_NonSAA.pkl'.format(Test.numStages, Test.numFacilities, Test.numCustomers, Test.numBranches, sigma, lambda_risk, alpha_risk), 'wb')
+        pickle.dump(results, output)
+        output.close()
+
